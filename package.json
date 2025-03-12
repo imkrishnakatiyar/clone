@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postinstall": "react-scripts build"
-  }
+  },
 
 
   "dependencies": {
