@@ -1,15 +1,42 @@
 body {
-  font-family: sans-serif;
-  -webkit-font-smoothing: auto;
-  -moz-font-smoothing: auto;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: auto;
-  text-rendering: optimizeLegibility;
-  font-smooth: always;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
 }
 
-h1 {
-  font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-col {
+    flex-direction: column;
 }
